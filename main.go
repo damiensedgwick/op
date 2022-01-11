@@ -10,6 +10,11 @@ import (
 
 func main() {
 	args := os.Args[1:]
+
+	if len(args) == 0 {
+		log.Fatal("oops, it looks like you didn't add a search term.")
+	}
+
 	arg := args[0]
 
 	if len(args) == 1 {
@@ -28,6 +33,6 @@ func main() {
 
 	if len(args) > 1 && arg != "mdn" {
 		fmt.Println("unfortunately you can only search mdn docs at the moment.")
-		fmt.Println("you can use a single search term 'op react' or using mdn 'op mdn div'")
+		fmt.Println("you can use a single search term 'op react' or using mdn 'op mdn div'.")
 	}
 }
