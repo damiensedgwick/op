@@ -8,18 +8,38 @@ import (
 	"os"
 )
 
+const mdnPrefix = "https://developer.mozilla.org/en-US/search?q="
+
+func MDNSearch(q string) string {
+	url := mdnPrefix + q
+
+	return url
+}
+
 func main() {
-	arg := os.Args[1]
-	//flags := os.Args[2:]
+	args := os.Args[1:]
+	arg := args[0]
 
-	fmt.Println("Searching for " + arg + " documents...")
-	fmt.Println(arg + " documents found, opening browser...")
+	fmt.Println(args)
+	fmt.Println(len(args))
 
-	err := browser.OpenURL(utils.ReturnCorrectLink(arg))
-	if err != nil {
-		log.Fatal("Could not open documents")
+	fmt.Println(MDNSearch("div"))
+
+	if len(args) == 1 {
+		fmt.Println("Searching for " + arg + " documents...")
+		fmt.Println(arg + " documents found, opening browser...")
+		err := browser.OpenURL(utils.ReturnCorrectLink(arg))
+		if err != nil {
+			log.Fatal("Could not open documents")
+		}
 	}
 
-	// when completed, the goal is to open the link in the browser and print it for reference.
-	//fmt.Println(utils.ReturnCorrectLink(arg))
+	if len(args) > 1 {
+		if arg == "mdn" {
+			err := browser.OpenURL(MDNSearch(args[1]))
+			if err != nil {
+				log.Fatal("Could not open mdn")
+			}
+		}
+	}
 }
