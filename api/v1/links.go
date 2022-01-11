@@ -24,6 +24,7 @@ var links = map[string]string{
 	"fsharp": "https://docs.microsoft.com/en-us/dotnet/fsharp/",
 	// g
 	"gatsby":   "https://www.gatsbyjs.com/docs/",
+	"git":      "https://git-scm.com/doc",
 	"ghost":    "https://ghostcms.net/",
 	"ghostcms": "https://ghostcms.net/",
 	"go":       "https://go.dev/doc/",
