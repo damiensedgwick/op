@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/cli/browser"
 	"github.com/damiensedgwick/op/utils"
 	"log"
@@ -23,5 +24,10 @@ func main() {
 		if err != nil {
 			log.Fatal("Could not open mdn")
 		}
+	}
+
+	if len(args) > 1 && arg != "mdn" {
+		fmt.Println("unfortunately you can only search mdn docs at the moment.")
+		fmt.Println("you can use a single search term 'op react' or using mdn 'op mdn div'")
 	}
 }
