@@ -1,5 +1,7 @@
 on: 
   release:
+    tags:
+      - 'v*'
     types: [created]
 
 jobs:
