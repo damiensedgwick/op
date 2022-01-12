@@ -58,6 +58,7 @@ var links = map[string]string{
 	"rescript": "https://rescript-lang.org/",
 	"redux":    "https://redux.js.org/",
 	"relay":    "https://relay.dev/docs/",
+	"remix":    "https://remix.run/docs/en/v1",
 	// s
 	"sanity": "https://www.sanity.io/docs/getting-started",
 	"strapi": "https://strapi.io/",
