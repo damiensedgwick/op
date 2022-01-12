@@ -19,6 +19,9 @@ If you write or use GoLang on your machine you can quite simply clone this repos
 Change in to the project directory and run `go install` - You *should* now be able to open a terminal anywhere you like
 and run `op <language|framework>` or `op mdn <term>`
 
+### Download executable binary from this repo
+[mac (intel)](https://github.com/damiensedgwick/op/blob/main/dist/mac) | [linux](https://github.com/damiensedgwick/op/blob/main/dist/linux) | [windows](https://github.com/damiensedgwick/op/blob/main/dist/windows)
+
 ### Other methods of installation
 In progress, ideas and pull requests are welcome here!
 
