@@ -20,7 +20,9 @@ Change in to the project directory and run `go install` - You *should* now be ab
 and run `op <language|framework>` or `op mdn <term>`
 
 ### Download executable binary from this repo
-[Latest Releases](https://github.com/damiensedgwick/op/releases)
+[Latest Releases](https://github.com/damiensedgwick/op/releases/latest)
+
+The below notes need to be updated!! you will still need to give permissions to your executable but the naming should be okay now.
 
 Once you have downloaded the appropiate executable, navigate to where you download the executable and do the following 
 rename it, give it the correct permissions and move it to your bin which should also be in your path.
