@@ -59,6 +59,7 @@ var links = map[string]string{
 	"redux":    "https://redux.js.org/",
 	"relay":    "https://relay.dev/docs/",
 	"remix":    "https://remix.run/docs/en/v1",
+	"rust":     "https://doc.rust-lang.org/book/",
 	// s
 	"sanity": "https://www.sanity.io/docs/getting-started",
 	"strapi": "https://strapi.io/",
