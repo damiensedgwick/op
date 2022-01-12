@@ -20,8 +20,9 @@ var links = map[string]string{
 	"drupal": "https://www.drupal.org/documentation",
 	// e
 	// f
-	"f#":     "https://docs.microsoft.com/en-us/dotnet/fsharp/",
-	"fsharp": "https://docs.microsoft.com/en-us/dotnet/fsharp/",
+	"f#":      "https://docs.microsoft.com/en-us/dotnet/fsharp/",
+	"fsharp":  "https://docs.microsoft.com/en-us/dotnet/fsharp/",
+	"flutter": "https://docs.flutter.dev/",
 	// g
 	"gatsby":   "https://www.gatsbyjs.com/docs/",
 	"git":      "https://git-scm.com/doc",
