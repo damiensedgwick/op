@@ -16,7 +16,6 @@ func TestMDNSearch(t *testing.T) {
 		"dog",
 		"fox",
 	}
-
 	assert.Equal(t, "https://developer.mozilla.org/en-US/search?q=one+two+three", MDNSearch(t1))
 	assert.Equal(t, "https://developer.mozilla.org/en-US/search?q=cat+dog+fox", MDNSearch(t2))
 }

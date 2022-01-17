@@ -16,7 +16,6 @@ func TestQueryBuilder(t *testing.T) {
 		"dog",
 		"fox",
 	}
-
 	assert.Equal(t, "one+two+three", QueryBuilder(t1))
 	assert.Equal(t, "cat+dog+fox", QueryBuilder(t2))
 }
