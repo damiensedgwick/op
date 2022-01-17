@@ -9,7 +9,7 @@ func ReturnCorrectLink(q string) string {
 	links := v1.Links()
 	exists, link := CheckLinkExists(q, links)
 
-	if exists == false {
+	if !exists {
 		log.Fatal("The documentation you seek cannot be found.")
 	}
 
