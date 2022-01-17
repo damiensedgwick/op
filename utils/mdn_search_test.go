@@ -6,7 +6,17 @@ import (
 )
 
 func TestMDNSearch(t *testing.T) {
-	assert.Equal(t, "https://developer.mozilla.org/en-US/search?q=div", MDNSearch("div"))
-	assert.Equal(t, "https://developer.mozilla.org/en-US/search?q=p", MDNSearch("p"))
-	assert.Equal(t, "https://developer.mozilla.org/en-US/search?q=table", MDNSearch("table"))
+	t1 := []string{
+		"one",
+		"two",
+		"three",
+	}
+	t2 := []string{
+		"cat",
+		"dog",
+		"fox",
+	}
+
+	assert.Equal(t, "https://developer.mozilla.org/en-US/search?q=one+two+three", MDNSearch(t1))
+	assert.Equal(t, "https://developer.mozilla.org/en-US/search?q=cat+dog+fox", MDNSearch(t2))
 }

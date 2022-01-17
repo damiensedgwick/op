@@ -25,7 +25,7 @@ func main() {
 	}
 
 	if len(args) > 1 && arg == "mdn" {
-		err := browser.OpenURL(utils.MDNSearch(args[1]))
+		err := browser.OpenURL(utils.MDNSearch(args[1:]))
 		if err != nil {
 			log.Fatal("Could not open mdn")
 		}
@@ -33,6 +33,5 @@ func main() {
 
 	if len(args) > 1 && arg != "mdn" {
 		fmt.Println("unfortunately you can only search mdn docs at the moment.")
-		fmt.Println("you can use a single search term 'op react' or using mdn 'op mdn div'.")
 	}
 }
