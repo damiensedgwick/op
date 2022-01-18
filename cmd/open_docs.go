@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func NotFound(arg string) {
+func OpenDocs(arg string) {
 	err := browser.OpenURL(utils.ReturnCorrectLink(arg))
 	if err != nil {
 		log.Fatal("Could not open documents")

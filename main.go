@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	arg := os.Args[0]
 	args := os.Args[1:]
 
 	if len(args) == 0 {
@@ -14,8 +13,10 @@ func main() {
 		os.Exit(0)
 	}
 
+	arg := args[0]
+
 	if len(args) == 1 {
-		cmd.NotFound(arg)
+		cmd.OpenDocs(arg)
 	}
 
 	if len(args) > 1 && arg == "mdn" {

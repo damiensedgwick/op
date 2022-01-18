@@ -43,6 +43,7 @@ var links = map[string]string{
 	// l
 	"laravel": "https://laravel.com/docs/8.x/installation",
 	// m
+	"mdn": "https://developer.mozilla.org/en-US/docs/Web/Guide",
 	// n
 	"next":   "https://nextjs.org/docs/getting-started",
 	"nextjs": "https://nextjs.org/docs/getting-started",
