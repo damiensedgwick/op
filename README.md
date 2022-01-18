@@ -6,7 +6,7 @@ It is not life changing, but it will help you save a few seconds here and there.
 ide you can simply type `op <language|framework>` for a specific set of documentation, or you can type `op mdn <term>` 
 to open up MDN docs with your query completed.
 
-[Demo](https://www.loom.com/share/168261a261274627a987794de1570a7a)
+[Demo](https://www.loom.com/share/052024ea728645349a342c5e6607f5e7)
 
 ### Installation
 This part is a work in progress that will hopefully become simpler over time.
