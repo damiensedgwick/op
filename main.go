@@ -1,37 +1,29 @@
 package main
 
 import (
-	"fmt"
-	"github.com/cli/browser"
-	"github.com/damiensedgwick/op/utils"
-	"log"
+	"github.com/damiensedgwick/op/cmd"
 	"os"
 )
 
 func main() {
+	arg := os.Args[0]
 	args := os.Args[1:]
 
 	if len(args) == 0 {
-		log.Fatal("oops, it looks like you didn't add a search term.")
+		cmd.Menu()
+		os.Exit(0)
 	}
 
-	arg := args[0]
-
 	if len(args) == 1 {
-		err := browser.OpenURL(utils.ReturnCorrectLink(arg))
-		if err != nil {
-			log.Fatal("Could not open documents")
-		}
+		cmd.NotFound(arg)
 	}
 
 	if len(args) > 1 && arg == "mdn" {
-		err := browser.OpenURL(utils.MDNSearch(args[1:]))
-		if err != nil {
-			log.Fatal("Could not open mdn")
-		}
+		cmd.MDN(args)
 	}
 
 	if len(args) > 1 && arg != "mdn" {
-		fmt.Println("unfortunately you can only search mdn docs at the moment.")
+		cmd.Menu()
+		os.Exit(0)
 	}
 }
