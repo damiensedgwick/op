@@ -44,8 +44,5 @@ In your terminal window, simply type either of the following.
 
 `op <language|framework>` or `op mdn <query>`
 
-#### NB.
-When searching MDN, only the first word is currently used in the search query, this will update soon!
-
 ### Contributions
 If there is a documentation link missing, and you would like to add it, feel free to open up a PR!
