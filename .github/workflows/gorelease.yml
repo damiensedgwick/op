@@ -2,8 +2,7 @@ on:
   release:
     tags:
       - 'v*'
-    types: [created]
-  workflow_dispatch:
+    types: [created, released, published]
 
 jobs:
   releases-matrix:
