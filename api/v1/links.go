@@ -24,14 +24,14 @@ var links = map[string]string{
 	"fsharp":  "https://docs.microsoft.com/en-us/dotnet/fsharp/",
 	"flutter": "https://docs.flutter.dev/",
 	// g
-	"gatsby":   "https://www.gatsbyjs.com/docs/",
-	"git":      "https://git-scm.com/doc",
-	"ghost":    "https://ghostcms.net/",
-	"ghostcms": "https://ghostcms.net/",
-	"go":       "https://go.dev/doc/",
-	"golang":   "https://go.dev/doc/",
-	"graphql":  "https://graphql.org/learn/",
-	"gql":      "https://graphql.org/learn/",
+	"gatsby":    "https://www.gatsbyjs.com/docs/",
+	"git":       "https://git-scm.com/doc",
+	"ghost":     "https://ghostcms.net/",
+	"ghost-cms": "https://ghostcms.net/",
+	"go":        "https://go.dev/doc/",
+	"golang":    "https://go.dev/doc/",
+	"graphql":   "https://graphql.org/learn/",
+	"gql":       "https://graphql.org/learn/",
 	// h
 	"haskel": "https://www.haskell.org/documentation/",
 	"hugo":   "https://gohugo.io/documentation/",
@@ -40,10 +40,13 @@ var links = map[string]string{
 	"javascript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
 	"jquery":     "https://api.jquery.com/",
 	// k
+	"kubernetes": "https://kubernetes.io/",
+	"k8s":        "https://kubernetes.io/",
 	// l
 	"laravel": "https://laravel.com/docs/8.x/installation",
 	// m
-	"mdn": "https://developer.mozilla.org/en-US/docs/Web/Guide",
+	"mdn":       "https://developer.mozilla.org/en-US/docs/Web/Guide",
+	"oh-my-zsh": "https://ohmyz.sh/",
 	// n
 	"next":   "https://nextjs.org/docs/getting-started",
 	"nextjs": "https://nextjs.org/docs/getting-started",
@@ -62,9 +65,14 @@ var links = map[string]string{
 	"relay":    "https://relay.dev/docs/",
 	"remix":    "https://remix.run/docs/en/v1",
 	"rust":     "https://doc.rust-lang.org/book/",
+	"ruby":     "https://ruby-doc.org/",
+	"rails":    "https://guides.rubyonrails.org/",
 	// s
-	"sanity": "https://www.sanity.io/docs/getting-started",
-	"strapi": "https://strapi.io/",
+	"sanity":            "https://www.sanity.io/docs/getting-started",
+	"strapi":            "https://strapi.io/",
+	"styled-components": "https://styled-components.com/",
+	"swift":             "https://www.swift.org/documentation/#swift-language",
+	"swiftui":           "https://developer.apple.com/documentation/swiftui/",
 	// t
 	"tailwind":    "https://tailwindcss.com/docs/installation",
 	"tailwindcss": "https://tailwindcss.com/docs/installation",
