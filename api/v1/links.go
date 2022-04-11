@@ -26,8 +26,8 @@ var links = map[string]string{
 	// g
 	"gatsby":    "https://www.gatsbyjs.com/docs/",
 	"git":       "https://git-scm.com/doc",
-	"ghost":     "https://ghostcms.net/",
-	"ghost-cms": "https://ghostcms.net/",
+	"ghost":     "https://ghost.org/",
+	"ghost-cms": "https://ghost.org/",
 	"go":        "https://go.dev/doc/",
 	"golang":    "https://go.dev/doc/",
 	"graphql":   "https://graphql.org/learn/",
