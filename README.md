@@ -1,6 +1,8 @@
 # op
 "op" is a small tool that will allow you to open language or framework documentation in your browser from your terminal.
 
+[![.github/workflows/gorelease.yml](https://github.com/damiensedgwick/op/actions/workflows/gorelease.yml/badge.svg)](https://github.com/damiensedgwick/op/actions/workflows/gorelease.yml)
+
 ### Overview
 It is not life changing, but it will help you save a few seconds here and there. Instead of leaving your terminal  or 
 ide you can simply type `op <language|framework>` for a specific set of documentation, or you can type `op mdn <term>` 
