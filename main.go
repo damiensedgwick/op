@@ -20,12 +20,17 @@ func main() {
 		cmd.OpenDocs(arg)
 	}
 
-	if len(args) > 1 && arg != "mdn" {
+	if len(args) > 1 && !utils.IsValidFlag(arg) {
 		q := utils.ReplaceSpaces(args)
 		cmd.OpenDocs(q)
 	}
 
-	if len(args) > 1 && arg == "mdn" {
-		cmd.MDN(args)
+	if utils.IsValidFlag(arg) {
+		switch arg {
+		case "-g":
+			cmd.Google(args)
+		case "-m":
+			cmd.MDN(args)
+		}
 	}
 }

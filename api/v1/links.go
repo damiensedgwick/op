@@ -51,8 +51,9 @@ var links = map[string]string{
 	"next":   "https://nextjs.org/docs/getting-started",
 	"nextjs": "https://nextjs.org/docs/getting-started",
 	// o
-	"objc":  "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
-	"obj-c": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+	"objc":        "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+	"obj-c":       "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+	"objective c": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
 	// p
 	"purescript": "https://book.purescript.org/",
 	"php":        "https://www.php.net/docs.php",
