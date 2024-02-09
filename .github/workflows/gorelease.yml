@@ -26,4 +26,3 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         binary_name: "op"
-#        extra_files: LICENSE README.md
